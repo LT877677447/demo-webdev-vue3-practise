@@ -21,6 +21,10 @@ const router = createRouter({
       path: "/img-srcset-sizes",
       component: () => import("../views/ImgSrcsetView.vue"),
     },
+    {
+      path: "/cainiao-print-demo",
+      component: () => import("../views/CAI_NIAO_Print_View.vue"),
+    },
   ],
 });
 
